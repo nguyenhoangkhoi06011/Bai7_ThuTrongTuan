@@ -3,7 +3,7 @@ using namespace std;
 int main()
 {
 	int so;
-	cout << " nhap so:";
+	cout << " nhap ngay:";
 	cin >> so;
 	switch (so)
 	{
