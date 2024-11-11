@@ -5,38 +5,29 @@ int main()
 	int so;
 	cout << " nhap so:";
 	cin >> so;
-	if (so == 0)
+	switch (so)
 	{
-		cout << "khong\n";
-	}
-	else if (so == 1) {
-		cout << "mot";
-	}
-	else if (so == 2) {
-		cout << "hai";
-	}
-	else if (so == 3) {
-		cout << "ba";
-	}
-	else if (so == 4) {
-		cout << "bon";
-	}
-	else if (so == 5)
-	{
-		cout << "nam";
-	}
-	else if (so == 6)
-	{
-		cout << "sau";
-	}
-	else if (so == 7) {
-		cout << "bay";
-	}
-	else if (so == 8) {
-		cout << "tam";
-	}
-	else if (so == 9) {
-		cout << "chin";
-	}
-	else { cout << "so nay khong nam trong tu 0 den 9"; }
+	case 2:
+		cout << "thu hai\n";
+		break;
+	case 3:
+		cout << "thu ba\n";
+		break;
+	case 4:
+		cout << "thu bon\n";
+		break;
+	case 5:
+		cout << "thu nam\n";
+		break;
+	case 6:
+		cout << "thu sau\n";
+		break;
+	case 7:
+		cout << "thu bay\n";
+		break;
+	case 8:
+		cout << "chu nhat\n";
+		break;
+	default:cout << "khong thuoc cac ngay trong tuan\n";
+		return 0;
 }
